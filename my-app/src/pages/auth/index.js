@@ -24,7 +24,7 @@ function Auth() {
           </Link>
         </nav>
       </div>
-      <div className="row mt-5">
+      <div className="row">
         <Switch>
           <Route path="/auth/sign-in">
             <SignInForms />

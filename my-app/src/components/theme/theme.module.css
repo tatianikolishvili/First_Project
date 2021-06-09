@@ -1,8 +1,17 @@
 .counterHome {
-  background-color: red;
+  background-color: grey;
   padding: 20px;
 }
 
 .todoHome {
-  background-color: aqua;
+  background-color: grey;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+}
+.nav-item {
+  display: flex;
+  outline: none;
 }

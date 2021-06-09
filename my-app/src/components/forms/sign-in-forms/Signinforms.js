@@ -1,9 +1,21 @@
+import { Link } from 'react-router-dom';
+
 function SignInForms(props) {
   return (
     <div className="col-6">
-      <h4> Sign In </h4>
+      <nav className="nav nav-pills nav-justified">
+        <Link
+          className="nav-link active"
+          aria-current="page"
+          to="/auth/sign-in">
+          Sign In
+        </Link>
+        <Link className="nav-link" to="/auth/sign-up">
+          Sign Up
+        </Link>
+      </nav>
       <form>
-        <div class="mb-3">
+        <div className="mb-3">
           <label htmlFor="exampleInputEmail1" className="form-label">
             Email address
           </label>

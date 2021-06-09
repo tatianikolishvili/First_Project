@@ -6,30 +6,20 @@ const Navigation = ({ props }) => {
     <header className="header pt-4">
       <h2 className="text-muted">Header</h2>
       <nav>
-        <ul className="nav nav-tabs">
+        <ul className="nav justify-content-left">
           <li className="nav-item">
-            <NavLink to="/todo" className="active">
+            <NavLink to="/" className="nav-link">
               Home
             </NavLink>
           </li>
 
           <li className="nav-item">
-            <NavLink to="/todo" className="active">
+            <NavLink to="/todo" className="nav-link">
               Todo Home
             </NavLink>
           </li>
           <li>
-            <NavLink to="/counter" className="active">
-              Counter Home
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/users" className="active">
-              Users Home
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/auth" className="active">
+            <NavLink to="/auth" className="nav-link">
               Auth Page
             </NavLink>
           </li>
