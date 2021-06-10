@@ -1,6 +1,6 @@
 import { Route, Switch } from 'react-router-dom';
-import TodoHome from './pages/todo/todohome';
 import Navigation from './components/navigation';
+import TodoHome from './pages/todo/todohome';
 import Counter from './pages/counter';
 import Users from './pages/users';
 import Theme from './components/theme';
