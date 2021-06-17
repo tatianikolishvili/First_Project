@@ -22,7 +22,7 @@ function App() {
           <Route path="/counter">
             <Counter />
           </Route>
-          <Route path="/Users">
+          <Route path="/users">
             <Users />
           </Route>
           <Route path="/auth">
